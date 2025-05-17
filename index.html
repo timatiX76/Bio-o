@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя биография</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Чёрный экран перед началом -->
+    <div id="start-screen">
+        <button id="start-button">Нажми, чтобы начать</button>
+    </div>
+
+    <!-- Глаз с посещениями -->
+    <div id="visitor-eye">
+        👁 <!-- Значок глаза -->
+        <span id="visitor-count">0</span>
+    </div>
+
+    <div class="video-container">
+        <video autoplay loop playsinline id="bg-video">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="content">
+        <div class="bio">
+            <h1>Xen_tick</h1>
+            <p>Ой, ты тут?</p>
+            <p>Ну тогда чекни мои социальные сети!</p>
+        </div>
+
+        <div class="social-links">
+            <a href="https://t.me/ymersd" class="btn tg" target="_blank">
+                <img src="telegram-icon.svg" alt="Telegram" class="icon"> 
+            </a>
+            <a href="https://discord.gg/dP6t3Kq8" class="btn ds" target="_blank">
+                <img src="discord-icon.svg" alt="Discord" class="icon"> 
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
